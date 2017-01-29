@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     table = dynamodb.Table('users')
     response = table.get_item(
         Key={
-            'username': 'jdoe',
+            'username': 'janedoe',
             'last_name': 'Doe'
         }
     )
