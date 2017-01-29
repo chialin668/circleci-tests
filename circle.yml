@@ -11,4 +11,4 @@ dependencies:
 
 test:
   override:
-    - cd emulambda; emulambda -v test1.py event.json
+    - cd emulambda; emulambda -v test1.lambda_handler event.json
