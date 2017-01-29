@@ -10,4 +10,4 @@ dependencies:
 
 test:
   override:
-    - python-lambda-local -f lambda_handler -t 5 simple.py event.json
+    - python-lambda-local -f lambda_handler -t 5 test.py event.json
