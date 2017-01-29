@@ -1,0 +1,3 @@
+https://serverlesscode.com/post/emulambda-testing-aws-lambda/
+
+emulambda -v test_event.lambda_handler test-event.json

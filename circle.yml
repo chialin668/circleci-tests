@@ -6,8 +6,8 @@ machine:
 
 dependencies:
   pre:
-    - pip install pytest python-lambda-local
+    - pip install emulambda
 
 test:
   override:
-    - cd lambda_simple; python-lambda-local -f lambda_handler -t 5 simple.py event.json
+    - cd emulambda; emulambda -v test1.py event.json
