@@ -6,8 +6,8 @@ machine:
 
 dependencies:
   pre:
-    - git clone https://github.com/fugue/emulambda.git
-    - pip install -e emulambda
+    - cd emulambda; git clone https://github.com/fugue/emulambda.git
+    - cd emulambda; pip install -e emulambda
 
 test:
   override:
